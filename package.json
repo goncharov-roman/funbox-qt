@@ -2,6 +2,7 @@
   "name": "fbqt",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://goncharov-roman.github.io/funbox-qt",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +31,7 @@
   ],
   "devDependencies": {
     "enzyme": "^3.7.0",
-    "enzyme-adapter-react-16": "^1.6.0"
+    "enzyme-adapter-react-16": "^1.6.0",
+    "gh-pages": "^2.0.1"
   }
 }

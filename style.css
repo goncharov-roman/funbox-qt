@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  background-color: black;
+  align-items: center;
+}
+.header_text {
+  color: white;
+  font-size: 22px;
+  margin-left: 30px;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+.wrapper {
+  display: flex;
+  width: 30%;
+  align-content: flex-start;
+  flex-direction: column;
+  margin: 15px 5px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 50px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.form_input {
+  box-sizing: border-box;
+  width: 80%;
+  min-height: 50px;
+  padding-left: 10px;
+}
+.button {
+  cursor: pointer;
+  min-height: 50px;
+}
+.form_items_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.form_item {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+.form_address {
+  font-size: 15px;
+  box-sizing: border-box;
+  width: 90%;
+  min-height: 40px;
+  margin: 0;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.form_delete_button {
+  cursor: pointer;
+}
+.footer {
+  background-color: lightseagreen;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_author {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0 10px 30px;
+  width: 200px;
+}
+.footer_contacts {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px 10px 0;
+  min-width: 100px;
+}
+.link {
+  margin-right: 10px;
+}
+.link:hover {
+  opacity: 0.8;
+}
+#map {
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 15px 5px;
+  height: 400px;
+  width: 600px;
+}
+.ghost {
+  opacity: 0.4;
+}
